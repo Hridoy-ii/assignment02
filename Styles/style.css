@@ -233,6 +233,43 @@ nav li {
 
 
 
+/* sponsor section start */
+.sponsor-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.sponsor-heading{
+    text-align: center;
+}
+.sponsor-heading h4{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.sponsor-heading p{
+    margin-bottom: 50px;
+    padding: 0 25%;
+}
+
+
+.sponsor-logos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+.sponsor-logo{}
+.sponsor-logo img{
+    width: 165px;
+    height: 50px;
+    filter: grayscale(100%);
+}
+
+
+/* sponsor section end */
+
+
+
+
 /* responsive  part */
 @media screen and (max-device-width: 375px) {
 
